@@ -1,3 +1,3 @@
-moquire
+morgue
 =======
 **Mocking require since**

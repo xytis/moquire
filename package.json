@@ -1,5 +1,5 @@
 {
-    "name"          : "moquire",
+    "name"          : "morgue",
     "version"       : "0.1.0",
     "description"   : "require with mocks for testing in node.js",
     "keywords"      : [
@@ -17,14 +17,14 @@
         "name"      : "Vytis Valentinavičius",
         "email"     : "vytis@nolife4life.org"
     },
-    "homepage"      : "https://guthub.com/xytis/moquire",
+    "homepage"      : "https://guthub.com/xytis/morgue",
     "bugs"          : {
-        "url"       : "https://github.com/xytis/moquire/issues",
+        "url"       : "https://github.com/xytis/morgue/issues",
         "email"     : "vytis@nolife4life.org"
     },
     "repository"    : {
         "type"      : "git",
-        "url"       : "git://github.com/xytis/moquire.git"
+        "url"       : "git://github.com/xytis/morgue.git"
     },
     "engines"       : {
         "node"      : "<0.12.x"
