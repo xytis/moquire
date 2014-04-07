@@ -1,0 +1,35 @@
+{
+    "name"          : "moquire",
+    "version"       : "0.1.0",
+    "description"   : "require with mocks for testing in node.js",
+    "keywords"      : [
+        "dependency",
+        "injection",
+        "mock",
+        "shim",
+        "module",
+        "unit",
+        "test",
+        "leak",
+        "inspect"
+    ],
+    "author"        : {
+        "name"      : "Vytis Valentinavičius",
+        "email"     : "vytis@nolife4life.org"
+    },
+    "homepage"      : "https://guthub.com/xytis/moquire",
+    "bugs"          : {
+        "url"       : "https://github.com/xytis/moquire/issues",
+        "email"     : "vytis@nolife4life.org"
+    },
+    "repository"    : {
+        "type"      : "git",
+        "url"       : "git://github.com/xytis/moquire.git"
+    },
+    "engines"       : {
+        "node"      : "<0.12.x"
+    },
+    "dependencies"  : {
+    },
+    "main" : "lib/index.js"
+}
