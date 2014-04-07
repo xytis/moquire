@@ -1,6 +1,6 @@
 {
     "name"          : "morgue",
-    "version"       : "0.1.0",
+    "version"       : "0.1.1",
     "description"   : "require with mocks for testing in node.js",
     "keywords"      : [
         "dependency",
