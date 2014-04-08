@@ -1,35 +1,42 @@
 {
-    "name"          : "morgue",
-    "version"       : "0.1.1",
-    "description"   : "require with mocks for testing in node.js",
-    "keywords"      : [
-        "dependency",
-        "injection",
-        "mock",
-        "shim",
-        "module",
-        "unit",
-        "test",
-        "leak",
-        "inspect"
-    ],
-    "author"        : {
-        "name"      : "Vytis Valentinavičius",
-        "email"     : "vytis@nolife4life.org"
-    },
-    "homepage"      : "https://guthub.com/xytis/morgue",
-    "bugs"          : {
-        "url"       : "https://github.com/xytis/morgue/issues",
-        "email"     : "vytis@nolife4life.org"
-    },
-    "repository"    : {
-        "type"      : "git",
-        "url"       : "git://github.com/xytis/morgue.git"
-    },
-    "engines"       : {
-        "node"      : "<0.12.x"
-    },
-    "dependencies"  : {
-    },
-    "main" : "lib/index.js"
+  "name": "morgue",
+  "version": "0.1.1",
+  "description": "require with mocks for testing in node.js",
+  "keywords": [
+    "dependency",
+    "injection",
+    "mock",
+    "shim",
+    "module",
+    "unit",
+    "test",
+    "leak",
+    "inspect"
+  ],
+  "author": {
+    "name": "Vytis Valentinavičius",
+    "email": "vytis@nolife4life.org"
+  },
+  "homepage": "https://guthub.com/xytis/morgue",
+  "bugs": {
+    "url": "https://github.com/xytis/morgue/issues",
+    "email": "vytis@nolife4life.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xytis/morgue.git"
+  },
+  "engines": {
+    "node": "<0.12.x"
+  },
+  "dependencies": {},
+  "main": "lib/index.js",
+  "readme": "morgue\n=======\n**Mocking require silent**\n\nUsage\n-------\n\n    var morquire = require('morgue');\n    var project_awesome = morquire('awesome', {'dep': {}, 'enden': {'cies' : function () { return \"are cold\"} } });\n",
+  "readmeFilename": "README.md",
+  "_id": "morgue@0.1.1",
+  "dist": {
+    "shasum": "86afad2117777992ddd7f3dd7a6ebd9d5bfd679f"
+  },
+  "_from": "morgue@0.1.1",
+  "_resolved": "https://registry.npmjs.org/morgue/-/morgue-0.1.1.tgz"
 }
